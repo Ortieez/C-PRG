@@ -7,11 +7,11 @@
 * [X] Vypište druhé mocniny čísel od 1 do 1024 pomocí cyklu a jedné proměnné.
 * [X] Do konzole vypište šachovnici z „0“ a „1“ o velikosti 8x8 znaků.
 * [X] Generujte náhodné číslo z intervalu <30;80>.
-* [ ] Vypište po sobě jdoucí čísla oddělená čárkou ze zadaného intervalu určeného na vstupu programu.
-* [ ] Časový údaj zadaný v dnech a hodinách převeďte na hodiny.
-* [ ] Časový údaj zadaný v hodinách převeďte na dny a hodiny.
-* [ ] Máte zadané x a y. Určete, je-li splněna podmínka: 4x + 3 < 5y – 1.
-* [ ] Vypište všechny prvočísla do zadaného n.
+* [X] Vypište po sobě jdoucí čísla oddělená čárkou ze zadaného intervalu určeného na vstupu programu.
+* [X] Časový údaj zadaný v dnech a hodinách převeďte na hodiny.
+* [X] Časový údaj zadaný v hodinách převeďte na dny a hodiny.
+* [X] Máte zadané x a y. Určete, je-li splněna podmínka: 4x + 3 < 5y – 1.
+* [X] Vypište všechny prvočísla do zadaného n.
 * [ ] Spočtěte zbytek po dělení dvou čísel bez pomoci operace %.
 * [ ] Spočítejte vzdálenost dvou bodů v rovině, jsou-li dány souřadnice každého z nich. Například: A[5;1] a B[-2;18].
 * [ ] Spočtěte objem a povrch Země. Kolikrát se vejde Země do Slunce? Kolik Zemí je potřeba jako korálky po obvodu Slunce?

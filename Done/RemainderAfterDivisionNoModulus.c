@@ -4,6 +4,12 @@
 
 int divisionwithoutmodulus(int n, int divider)
 {
+    if (divider == 0 || n == 0)
+    {
+        printf("You cannot divide with 0 or divide 0.");
+        return 0;
+    }
+
     int remainder, division;
     // The division
     division = n / divider;
@@ -15,6 +21,6 @@ int divisionwithoutmodulus(int n, int divider)
 
 int main()
 {
-    divisionwithoutmodulus(50, 4);
+    divisionwithoutmodulus(50, 0);
     return 0;
 }

@@ -13,7 +13,7 @@
 - [x] Máte zadané x a y. Určete, je-li splněna podmínka: 4x + 3 < 5y – 1.
 - [x] Vypište všechny prvočísla do zadaného n.
 - [x] Spočtěte zbytek po dělení dvou čísel bez pomoci operace %.
-- [ ] Spočítejte vzdálenost dvou bodů v rovině, jsou-li dány souřadnice každého z nich. Například: A[5;1] a B[-2;18].
+- [x] Spočítejte vzdálenost dvou bodů v rovině, jsou-li dány souřadnice každého z nich. Například: A[5;1] a B[-2;18].
 - [ ] Spočtěte objem a povrch Země. Kolikrát se vejde Země do Slunce? Kolik Zemí je potřeba jako korálky po obvodu Slunce?
 - [ ] Jsou zadány hodnoty dvou odporů v Ohmech (R1 a R2), tak spočtěte hodnotu celkového zapojení odporů jak do série, tak i paralelně.
 - [ ] Jsou dány (ze vstupu…) délky stran trojúhelníku. Určete, zdali se jedná o trojúhelník.

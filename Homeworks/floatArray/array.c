@@ -22,13 +22,13 @@ int main()
         float a, b, c;
         a = pole[i];
         b = pole[i + 1];
-        c = a - b;
-        if (c < 0)
+        pole2[i] = a - b;
+        if (pole2[i] < 0)
         {
-            c *= -1;
+            pole2[i] *= -1;
         }
 
-        printf("%.2f - %.2f = %.2f \n", a, b, c);
+        printf("%.2f - %.2f = %.2f \n", a, b, pole2[i]);
     }
 
     return 0;

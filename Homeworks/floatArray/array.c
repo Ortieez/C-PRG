@@ -19,7 +19,7 @@ int main()
     printf("Pole 2: absolutni hodnoty rozdilu dvou sousednich prvku predchoziho pole\n");
     for (int i = 0; i < sizeof(pole2) / 4; i++)
     {
-        float a, b, c;
+        float a, b;
         a = pole[i];
         b = pole[i + 1];
         pole2[i] = a - b;

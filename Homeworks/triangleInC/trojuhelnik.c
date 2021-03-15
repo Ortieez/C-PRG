@@ -6,7 +6,7 @@ int trojuhelnik(int h)
 {
     for (int i = 1; i <= h; i++)
     {
-        for (int k = h; i <= k; k--)
+        for (int k = h; k >= i; k--)
         {
             printf(" ");
         }

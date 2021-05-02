@@ -1,14 +1,20 @@
 #include <stdio.h>
+#include <math.h>
 #include <stdlib.h>
+
+int *test()
+{
+    static int x[4];
+    for (int i = 0; i < 4; i++)
+    {
+        x[i] = i % 2;
+    }
+    return x;
+}
 
 int main()
 {
-    int x = 12;
-    int *p = &x;
-    *p = *p + 30;
-
-    printf("%x\n", p);
-    printf("%i\n", x);
-
+    int *arr = test();
+    printf("%d", *(arr + 3));
     return 0;
 }

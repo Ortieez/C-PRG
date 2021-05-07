@@ -22,12 +22,12 @@ void show_items(float *inputArr, int arrSize)
         printf("Before rounding numbers:\n");
     }
     else
-    {
         printf("After rounding numbers:\n");
-    }
 
     for (int i = 0; i < arrSize; i++)
+    {
         printf("[%d]\t%.2f\n", i, inputArr[i]);
+    }
 }
 
 float round_items(float *inputArr, int arrSize)

@@ -29,15 +29,12 @@ int main()
     {
         if (i == 1)
         {
-            printf("Before RLE: %s\n", firstRun);
             rleCompression(firstRun);
         }
         else
         {
-            printf("Before RLE: %s\n", secondRun);
             rleCompression(secondRun);
         }
     }
-
     return 0;
 }
